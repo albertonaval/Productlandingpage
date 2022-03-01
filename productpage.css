@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 10;
+    box-sizing: border-box;
+    
+  }
+  body {
+    background-color: rgb(38, 28, 29);
+  }
+  #page-wrapper {
+    position: relative;
+  }
+  
+  h1 {
+    color: rgb(236, 100, 78);
+    font-family: 'Raleway', sans-serif;
+    font-size: 10rem;
+    text-align: center;
+  } 
+  h2 {
+    color: rgb(236, 100, 78);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+  }
+  p {
+    color: rgb(253, 234, 223);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem; 
+  }
+  li {
+    list-style: none;
+  }
+  a {
+    color: rgb(253, 234, 223);
+    text-decoration: underline;
+  }
+  legend {
+    color: rgb(253, 234, 223);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3rem;
+     
+  }
+  label {
+    color: rgb(253, 234, 223);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.0rem;
+    
+  }
+  .container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  #contact {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;   
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    min-height: 75px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #nav-bar {
+    display: flex;
+    justify-content:flex-end;
+    
+
+    
+    
+  }
