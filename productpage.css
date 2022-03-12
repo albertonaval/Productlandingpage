@@ -90,10 +90,98 @@ max-height: 100%;
 
 
 .container-grid {
-display: grid;
-min-height: 100px;
-width: 100%;
-grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
-grid-template-rows: 1fr 1fr 1fr;
-grid-gap: 10px;
+height: auto;
+width: auto;
+background-color: red;
+display: flex;
+flex-flow: row wrap;
+
 }
+.gridimg-3 {
+width: 30%;
+height: auto;
+}
+.img-3 {
+height: 100%;
+width: 100%;
+}
+.gridimg-4 {
+width: auto;
+height: 30%;
+}
+.img-4 {
+height: 100%;
+width: 100%;
+}
+.gridimg-5 {
+width: 30%;
+height: auto;
+}
+.img-5 {
+height: 100%;
+width: 100%;
+}
+.gridimg-6 {
+width: 30%;
+height: auto;
+}
+.img-6 {
+height: 100%;
+width: 100%;
+}
+.gridimg-7 {
+width: 30%;
+height: auto;
+}
+.img-7 {
+width: 100%;
+height: 100%;
+}
+.gridimg-8 {
+width: 30%;
+height: auto;
+}
+.img-8{
+height: 100%;
+width: 100%;
+}
+.gridimg-9 {
+width: 30%;
+height: auto;
+}
+.img-9{
+height: 100%;
+width: 100%;
+}
+.gridimg-10 {
+width: 30%;
+height: auto;
+}
+.img-10 {
+width: 100%;
+height: 100%;
+}
+.gridimg-11 {
+width: 30%;
+height: auto;
+}
+.img-11 {
+width: 100%;
+height: 100%;
+}
+.gridimg-12 {
+width: 30%;
+height: auto;
+}
+.img-12 {
+width: 100%;
+height: 100%;
+}
+
+
+
+
+
+
+
+
