@@ -12,6 +12,7 @@ h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
   text-align: center;
+  margin-top: 0px;
 }
 
 /* background-image: url(https://silvianaval.files.wordpress.com/2021/06/silviaed5.jpg?strip=info&w=1536);
@@ -70,6 +71,7 @@ a {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+  margin-bottom: 30px;
 }
 
 .img-1 {
@@ -102,7 +104,9 @@ main section {
   max-width: 100%;
   max-height: 100%;
 }
-
+fieldset {
+  margin-top: 50px;
+}
 .container-grid {
   height: auto;
   width: auto;
