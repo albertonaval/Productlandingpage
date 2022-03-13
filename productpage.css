@@ -13,6 +13,12 @@ h2 {
   font-size: 2.5rem;
   text-align: center;
 }
+
+/* background-image: url(https://silvianaval.files.wordpress.com/2021/06/silviaed5.jpg?strip=info&w=1536);
+background-size: cover;
+display: flex;
+flex-grow: 1;x
+height: auto; */
 p {
   color: var(--white);
   font-size: 1rem;
@@ -60,20 +66,27 @@ a {
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
 }
-
-main .containerbio {
+.containerbio {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
 }
 
 .img-1 {
+  background-image: url("https://silvianaval.files.wordpress.com/2021/06/silviaed5.jpg?strip=info&w=1536");
+  background-size: cover;
+  flex-grow: 1;
+  display: flex;
+  height: auto;
   width: 30%;
-  height: 30%;
 }
 .img-2 {
+  background-image: url("https://silvianaval.files.wordpress.com/2019/03/silvia-naval-6.jpg?strip=info&w=2000");
+  flex-grow: 1;
+  height: auto;
+  display: flex;
+  background-size: cover;
   width: 30%;
-  height: 30%;
 }
 main img {
   max-height: 100%;
@@ -81,7 +94,8 @@ main img {
 }
 
 .bio {
-  height: 30%;
+  margin: 0px 15px 0px 15px;
+  height: auto;
   width: 30%;
 }
 main section {
