@@ -92,7 +92,7 @@ max-height: 100%;
 .container-grid {
 height: auto;
 width: auto;
-background-color: red;
+
 display: flex;
 flex-flow: row wrap;
 
