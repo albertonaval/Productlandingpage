@@ -106,7 +106,7 @@ main section {
 .container-grid {
   height: auto;
   width: auto;
-  border: 15px black solid;
+  border: 5px black solid;
   display: flex;
   flex-flow: row wrap;
 }
@@ -144,4 +144,23 @@ main section {
   max-width: 100%;
   max-height: 100%;
   text-align: center;
+}
+.containerfooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-self: auto;
+}
+#mailto {
+  margin-bottom: 5px;
+}
+.span {
+  display: flex;
+  align-self: center;
 }
