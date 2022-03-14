@@ -110,17 +110,27 @@ fieldset {
 .container-grid {
   height: auto;
   width: auto;
-
+  border: 15px black solid;
   display: flex;
   flex-flow: row wrap;
 }
 .container-grid .grid-img-vertical {
-  width: 30%;
+  background-image: url("#");
+  background-size: cover;
+  height: auto;
+  display: flex;
+  flex-grow: 1;
+  width: 20%;
   height: auto;
 }
 .container-grid .grid-img-horizontal {
+  background-image: url("#");
+  background-size: cover;
+  height: auto;
+  display: flex;
+  flex-grow: 1;
   width: auto;
-  height: 30%;
+  height: 20%;
 }
 .container-grid .img {
   height: 100%;
