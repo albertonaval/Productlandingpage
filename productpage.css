@@ -35,6 +35,7 @@ label {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: flex-start;
 }
 header .logo {
   height: 150px;
@@ -120,7 +121,6 @@ main section {
 .container-grid .grid-img-horizontal {
   background-image: url("#");
   background-size: cover;
-
   display: flex;
   flex-grow: 1;
   width: auto;
