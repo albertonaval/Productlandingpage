@@ -71,23 +71,17 @@ a {
   flex-flow: row wrap;
   justify-content: space-between;
   margin-bottom: 30px;
+  height: auto;
+  width: auto;
 }
 
-.img-1 {
-  background-image: url("https://silvianaval.files.wordpress.com/2021/06/silviaed5.jpg?strip=info&w=1536");
+.img {
+  background-image: url("#");
   background-size: cover;
   flex-grow: 1;
   display: flex;
   height: auto;
-  width: 30%;
-}
-.img-2 {
-  background-image: url("https://silvianaval.files.wordpress.com/2019/03/silvia-naval-6.jpg?strip=info&w=2000");
-  flex-grow: 1;
-  height: auto;
-  display: flex;
-  background-size: cover;
-  width: 30%;
+  width: 20%;
 }
 main img {
   max-height: 100%;
@@ -97,7 +91,9 @@ main img {
 .bio {
   margin: 0px 15px 0px 15px;
   height: auto;
-  width: 30%;
+  width: 20%;
+  display: flex;
+  flex-grow: 1;
 }
 main section {
   max-width: 100%;
