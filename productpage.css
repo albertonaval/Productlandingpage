@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+  color: white;
+}
+#page-wrapper {
+  position: relative;
+}
+.nav-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: aqua;
+}
+.nav-bar li {
+  float: right;
+}
+.nav-bar a {
+  display: block;
+  color: brown;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.logo {
+  display: flex;
+  padding: 14px 16px;
+  flex-grow: 1;
+  border-radius: 5px;
+}
