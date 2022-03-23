@@ -10,26 +10,39 @@ body {
 #page-wrapper {
   position: relative;
 }
+header {
+  position: fixed;
+  top: 0;
+  padding: 0px 20px;
+  min-height: 0 75px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 .nav-bar {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: aqua;
+  background-color: black;
 }
 .nav-bar li {
   float: right;
 }
 .nav-bar a {
   display: block;
-  color: brown;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
+
 .logo {
   display: flex;
   padding: 14px 16px;
   flex-grow: 1;
-  border-radius: 5px;
+}
+.logo img {
+  border-radius: 15px;
 }
