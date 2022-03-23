@@ -20,6 +20,14 @@ header {
   justify-content: space-around;
   align-items: center;
 }
+@media (max-width: 600px) {
+  header {
+    flex-wrap: wrap;
+  }
+  .logo {
+    width: 60vw;
+  }
+}
 .nav-bar {
   list-style-type: none;
   margin: 0;
